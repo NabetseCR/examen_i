@@ -1,0 +1,96 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main Styling*/
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+/*Utility classes*/
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.clr{
+    clear: both;
+}
+
+/*Navbar*/
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Footer*/
+#main-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+.panel{width:100%;margin: auto; border: 3px solid gray;  padding: 10px;}
+.fila{width:100%}
+.encabezado{background-color: black; color:rgb(255, 105, 45); text-align:center; font-size: 1.5em;}
+.etiqueta{width:20%;display:inline-block}
+.campo{width:60%;padding: 5px;display:inline-block}
+
+input[type=text].is-invalid,input[type=password].is-invalid{
+    border-color: #dc3545;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 12 12;
+    background-image: url("/Examen/img/is-invalid.png");    
+}
